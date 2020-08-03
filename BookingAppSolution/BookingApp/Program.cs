@@ -1,4 +1,5 @@
 ﻿using System;
+using BookingApp.Logic;
 
 namespace BookingApp
 {
@@ -6,6 +7,9 @@ namespace BookingApp
     {
         static void Main(string[] args)
         {
+            var booking = new BookingContext();
+
+            
             Console.WriteLine("Hello World!");
         }
     }
